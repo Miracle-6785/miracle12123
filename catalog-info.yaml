@@ -1,0 +1,22 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: "Miracle3232"
+  description: "A component that is part of the DevSecOps catalog"
+  annotations:
+    
+    jenkins.io/job-full-name: Miracle3232-org/Miracle3232-job
+    
+
+    
+    sonarqube.org/project-key: default/Miracle3232
+    
+
+    dependencytrack/project-id: ""
+    iap/app-info: ""
+    backstage.io/techdocs-ref: dir:.
+
+spec:
+  type: service
+  owner: user:guest
+  lifecycle: experimental
